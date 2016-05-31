@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; URL=http://<?php echo google.ch;//echo file_get_contents('ip.txt');?>/">
+<meta http-equiv="refresh" <?php echo content="0; echo URL=http://;echo file_get_contents('ip.txt');?>/">
