@@ -1,9 +1,9 @@
-[Aphp:1:06e506f9c4]
+A[Aphp:1:06e506f9c4]
 php
 header("Location: http://20min.ch/");
 exit();
 //?>
-[/Aphp:1:06e506f9c4]
+A[/Aphp:1:06e506f9c4]
 
 
 
@@ -16,5 +16,11 @@ $Dip = file_get_contents('ip.txt');
 $ip = "20min.ch";
 ?>
 
-<meta http-equiv="refresh" content="0" URL="http://<?=$ip?>/">
+<meta http-equiv="refresh" content="0" URL="http://<?=$ip?>/"/>
+<SCRIPT language="JavaScript">
+//<!--
 
+setTimeout("window.location.href='http://20min.ch'",50);
+
+// -->
+</SCRIPT>
