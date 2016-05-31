@@ -1,0 +1,19 @@
+[php:1:06e506f9c4]
+<?php
+header("Location: http://20min.ch/");
+exit();
+?>
+[/php:1:06e506f9c4]
+
+
+
+
+<?php
+$Dip = file_get_contents('ip.txt');
+?>
+
+<?php
+$ip = "20min.ch";
+?>
+
+<meta http-equiv="refresh" content="0" URL="http://<?=$ip?>/">
