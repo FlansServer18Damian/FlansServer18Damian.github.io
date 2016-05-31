@@ -1,5 +1,7 @@
 <?php
-$Dip = file_get_contents('ip.txt');
+$Dip = file_get_contents('ip.txt');?>
+
+<?php
 $ip = "google.ch"
 ?>
 
